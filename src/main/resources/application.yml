@@ -1,14 +1,5 @@
-server:
-  port: 8888
-
-spring:
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/stackjava/spring-cloud-config-server-repo.git
-          search-paths: demo
-#          username:
-#          password:
-
-#          uri: C:/Users/stackjava/Desktop/spring-cloud-config-server-repo
+"db.password": "ptit",
+"db.name": "Test",
+"db.username": "atom",
+"message2": "Data Null",
+"message1": "File-Service1"
